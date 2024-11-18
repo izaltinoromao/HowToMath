@@ -36,3 +36,8 @@ let goalMock : [GoalType] = [
     GoalType(id: 8, icone: "pencil.circle.fill", titulo: "Treinar", descricao: "Adicao por 4 horas"),
     GoalType(id: 9, icone: "play.circle.fill", titulo: "Jogar", descricao: "MathGame por 2 horas")
 ]
+
+let userMock : [UserModel] = [
+    UserModel(id: 1, nome: "Izaltino"),
+    UserModel(id: 2, nome: "Joana")
+]
