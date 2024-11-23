@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ServiceType : Identifiable{
+struct ServiceType : Identifiable, Decodable{
     let id: Int
     let nome: String
     let imagem: String

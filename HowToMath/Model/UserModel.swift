@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct UserModel : Identifiable{
+struct UserModel : Identifiable, Decodable{
     let id : Int
     let nome: String
 }

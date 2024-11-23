@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8ED3EC832CF25FE700DF58F5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8ED3EC822CF25FE700DF58F5 /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8EFDA5282CEB84F80087AB43 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED3EC832CF25FE700DF58F5 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = HowToMath;
 			packageProductDependencies = (
+				8ED3EC822CF25FE700DF58F5 /* Alamofire */,
 			);
 			productName = HowToMath;
 			productReference = 8EFDA5172CEB84F70087AB43 /* HowToMath.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 8EFDA50E2CEB84F70087AB43;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8ED3EC812CF25FE700DF58F5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8EFDA5182CEB84F70087AB43 /* Products */;
 			projectDirPath = "";
@@ -552,6 +561,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8ED3EC812CF25FE700DF58F5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8ED3EC822CF25FE700DF58F5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8ED3EC812CF25FE700DF58F5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8EFDA50F2CEB84F70087AB43 /* Project object */;
 }

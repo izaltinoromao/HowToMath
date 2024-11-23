@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct GoalType : Identifiable{
+struct GoalType : Identifiable, Codable{
     let id : Int
     let icone: String
     let titulo: String
